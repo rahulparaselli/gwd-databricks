@@ -1,0 +1,19 @@
+{
+  "evaluation": {
+    "source": {
+      "name": "product_id",
+      "display": "product_id",
+      "aggregation": "AGGREGATION_UNSPECIFIED"
+    },
+    "comparison_operator": "NOT_EQUAL",
+    "threshold": {
+      "value": {
+        "string_value": "1"
+      }
+    },
+    "notification": {}
+  },
+  "query_lines": [
+    "select* from gwd_de.gold.dim_products"
+  ]
+}
